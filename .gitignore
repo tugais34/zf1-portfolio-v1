@@ -1,0 +1,33 @@
+# Composer files
+composer.lock
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+data/db/
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+# Legacy ZF1
+demos/
+extras/documentation
+
+# Eclipse File
+.settings/
+.buildpath
+.project
+
+# Assets
+src/public/assets/
+
+# Vagrant
+.vagrant/

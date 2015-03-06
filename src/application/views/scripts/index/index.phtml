@@ -1,0 +1,11 @@
+<?= $this->translate("Bonjour le monde !!!");?>
+<br>
+<?= $this->translate("On est le : %s", Zend_Date::now());?>
+<br>
+<?= $this->translate(array("Voiture", "Voitures", 1));?>
+<br>
+<?= $this->translate(array("Voiture", "Voitures", 10));?>
+
+<?= $this->url(array(), "skillRead");?>
+
+<?php var_dump(stream_get_transports()); ?>
